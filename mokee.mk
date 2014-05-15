@@ -13,12 +13,12 @@
 # limitations under the License.
 
 # Inherit some common cyanogenmod stuff.
-$(call inherit-product-if-exists, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product-if-exists, vendor/mk/config/common_full_tablet_wifionly.mk)
 
 #TARGET_SCREEN_WIDTH := 600
 TARGET_SCREEN_WIDTH := 480
 TARGET_SCREEN_HEIGHT := 1024
 TARGET_BOOTANIMATION_USE_RGB565 := true
 
-DEVICE_PACKAGE_OVERLAYS += device/amazon/otter-common/overlay/cm
+DEVICE_PACKAGE_OVERLAYS += device/amazon/otter-common/overlay
 
